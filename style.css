@@ -168,11 +168,12 @@ a:focus{color: white}
 }
 
 #slide1{
-	
+	position: relative;
+	margin: 0 auto;
        
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
 	background-image: url(images/cartoon.gif);
@@ -195,11 +196,11 @@ transition: 5s;}
     border:none;
 }
 
-#slide2{position:relative;
-        float:left;
+#slide2{position: relative;
+	margin: 0 auto;
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
 	background-image: url(images/cartoon2.gif);
@@ -219,11 +220,11 @@ transition: 5s;}
     text-align: center;
     border:none;
 }
-#slide3{position:relative;
-        float:left;
+#slide3{position: relative;
+	margin: 0 auto;
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
 	background-image: url(images/cartoon1.gif);
@@ -247,11 +248,11 @@ transition: 5s;}
     
 }
 
-#slide4{
-        float:left;
+#slide4{position: relative;
+	margin: 0 auto;
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	margin-top: 50px;
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
@@ -273,11 +274,11 @@ transition: 5s;}
     position: relative;
     border:none;
 }
-#slide5{position:relative;
-        float:left;
+#slide5{position: relative;
+	margin: 0 auto;
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	margin-top: 50px;
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
@@ -299,11 +300,11 @@ transition: 5s;}
     position: relative;
     border:none;
 }
-#slide6{position:relative;
-        float:left;
+#slide6{position: relative;
+	margin: 0 auto;
 	width:320px;
 	height:420px;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	margin-top: 50px;
 	box-shadow:0px 0px 15px grey;
 	border-radius: 10px;
@@ -347,15 +348,15 @@ transition: 5s;}
     
 }
 
-#d15{float: left;
-	position: relative;
+#d15{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/giphy.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 
@@ -398,15 +399,15 @@ transition: 5s;}
     
 }
 
-#d16{float: left;
-	position: relative;
+#d16{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/diwali1.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 }
@@ -447,15 +448,15 @@ transition: 5s;}
     
 }
 
-#d17{float: left;
-	position: relative;
+#d17{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/fun.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 }
@@ -495,15 +496,15 @@ transition: 5s;}
     
 }
 
-#d18{float: left;
-	position: relative;
+#d18{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/goku.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 }
@@ -545,15 +546,15 @@ transition: 5s;}
     
 }
 
-#d19{float: left;
-	position: relative;
+#d19{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/mad.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 }
@@ -594,15 +595,15 @@ transition: 5s;}
     
 }
 
-#d20{float: left;
-	position: relative;
+#d20{position: relative;
+	margin: 0 auto;
 	width: 320px;
 	height: 400px;
 	background-image: url(images/sport.gif);
 	background-size: 100% 100%;
 	border:1px solid red;
 	overflow: hidden;
-	margin-left: 20px;
+	/* margin-left: 20px; */
 	border:none;
 
 }
