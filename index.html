@@ -1,0 +1,488 @@
+
+
+<! DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet"  href="media.css">
+<!-- bootstrap CDN -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+
+<link rel="stylesheet"  href="style.css">
+
+<!-- plugins -->
+
+<link rel="stylesheet"  href="animatestyle.css">
+
+<script src="animatescript.js"></script>
+
+<title>
+Sanket proj
+</title>
+
+
+</head>
+
+<body>
+	
+<!-- Menu bar  -->
+	<nav class="navbar navbar-expand-md navbar-dark">
+				
+			<h1 class= "wow fadeInLeftBig" data-wow-duration="2000ms" data-wow-delay="100ms"  id="d2">  Giphyss  </h1>
+		
+			
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+				  <ul class="navbar-nav"  id="menu1">
+					<li class="nav-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="2000ms">
+					  <a class="nav-link" href="#">HOME</a>
+					</li>
+					<li class="nav-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="2300ms">
+					  <a class="nav-link" href="#">REACTIONS</a>
+					</li>
+					<li class="nav-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="2600ms">
+					  <a class="nav-link" href="#">ENTERTAINMENT</a>
+					</li>  
+					<li class="nav-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="2900ms">
+					  <a class="nav-link" href="#">STICKERS</a>
+					</li> 
+					<li class="nav-item wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="3200ms">
+					  <a class="nav-link" href="#">ARTISTS</a>
+					</li> 
+				  </ul>
+				  
+					<div id="space1" >
+						<button  class="wow fadeInRight file btn btn-md btn-primary" data-wow-duration="1000ms" data-wow-delay="3400ms">Upload</button>
+						<button  class="wow fadeInRight file btn btn-md btn-primary" data-wow-duration="1000ms" data-wow-delay="3400ms">Create</button>
+						<button class="wow fadeInRight navbar-brand" data-wow-duration="1000ms" data-wow-delay="3400ms" id="but1"> LOGIN  </button>
+						</div>
+				  
+				</div>  
+								 
+			  </nav>
+
+			  
+	
+<!-- Home image -->
+<div class="container-fluid">
+<div class="row">
+<div class="col-12" id="d5">
+		
+<div class="container">
+		<div class="row">
+	<div class="col-12 col-lg-12" style="
+
+	padding-left: 30px;
+	position: absolute;
+	
+	top: 170px;
+	color: white;
+	font-weight: bold;
+	font-size: 5vw;">#Get your favourite GIPHY today!</div></div></div>
+	<div id="move1"></div>
+</div>
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script type="text/javascript">
+$('#d5').mousemove(function(e){
+	var moveX=(e.pageX * -1/15);
+	var moveY=(e.pageY * -1/15);
+	$(this).css('background-position',moveX
+		+ 'px ' +moveY + 'px' )
+})	
+
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+<script type="text/javascript">
+$('#move1').mousemove(function(e){
+	var moveX=(e.pageX * -5/15);
+	var moveY=(e.pageY * -5/15);
+	$(this).css('background-position',moveX
+		+ 'px ' +moveY + 'px' )
+});
+
+
+
+</script>
+
+
+
+
+
+
+
+<!-- check out all pages -->
+<div class="container-fluid">
+<div class="row">
+<div style="float: left; width:100%;background-image: url(images/back1.png); background-size: 100% 100%;"	>
+<p id="d6">
+
+. Check Out All The Pages .<br><br>
+
+<span style="font-size:18px; font-weight:normal;text-align: center; color:#767676;line-height: 0px;">Welcome to the Giffys theme</span>
+
+
+</p>
+
+<!-- image slider page1 -->
+
+
+<div class="col-12 col-lg-4  wow bounceInLeft" data-wow-duration="2000ms" data-wow-delay="500ms" id="d7">
+
+<span style="position: absolute;left: 150px;
+bottom: 80px; font-size: 17px; font-weight: bold;">Disneys Princess</span>
+ 
+<div  id="slide1"> </div>
+</div>
+
+<div class="col-12 col-lg-4 wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="1500ms" id="d8">
+<span style="position: absolute;left: 150px;
+bottom: 80px; font-size: 17px; font-weight: bold;">Marvels Ironman </span>
+<div id="slide2">   </div>
+</div>
+
+<div class="col-12 col-lg-4 wow bounceInRight" data-wow-duration="2000ms" data-wow-delay="1500ms"" id="d9">
+<span style="position: absolute;left: 150px;
+bottom: 80px; font-size: 17px; font-weight: bold;">Zeus World</span>
+<div  id="slide3">   </div>
+</div>
+
+
+<!-- image slider page2 -->
+
+
+<div class="col-12 col-lg-4  wow bounceInLeft" data-wow-duration="2000ms" data-wow-delay="500ms" id="d10">
+		<span style="position: absolute;left: 150px; 
+		bottom: 80px; font-size: 17px; font-weight: bold;">Cute Doggy</span>
+		<div  id="slide4"> </div>
+		</div>
+		
+		<div class="col-12 col-lg-4 wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="1500ms" id="d11">
+		<span style="position: absolute;left: 150px;
+		bottom: 80px; font-size: 17px; font-weight: bold;">Sushima Japan </span>
+		<div id="slide5">   </div>
+		</div>
+		
+		<div class="col-12 col-lg-4 wow bounceInRight" data-wow-duration="2000ms" data-wow-delay="1500ms"" id="d12">
+		<span style="position: absolute;left: 150px;
+		bottom: 80px; font-size: 17px; font-weight: bold;">My Band My World</span>
+		<div  id="slide6">   </div>
+		</div>
+
+</div>
+</div>
+</div>
+
+
+
+<div class="container-fluid" style="background-image: url(images/back5.png); background-size: 100% 100%;">
+		
+
+
+<!-- Our Project -->
+
+<div class="row">
+<div class="col-12 col-lg-12" id="d14">
+
+<span style="font-size:14px;text-align: center; font-weight:normal; color:#767676;line-height: 60px;">Giffys Studio</span><br>
+
+We make Giffys that you like the most!
+
+</div>
+</div>
+
+
+<div class="row">
+<!-- work image 1 -->
+<div class="col-12 col-lg-4" id="work1" >
+
+<div  id="d15">
+<div id="slideup1"><span style="font-size: 18px">FUN</span><br>Animal Gif<hr width="20%" ></div>
+</div></div>
+
+<!-- work image 2 -->
+<div class="col-12 col-lg-4" id="work2">
+
+<div  id="d16">
+<div id="slideup2"><span style="font-size: 18px">FESTIVAL</span><br>Diwali Gif<hr width="20%" ></div>
+</div></div>
+
+<!-- work image 3 -->
+<div class="col-12 col-lg-4" id="work3">
+
+<div  id="d17">
+<div id="slideup3"><span style="font-size: 18px">ENTERTAINMENT</span><br>Cartoon Gif<hr width="20%" ></div>
+</div></div>
+</div>
+
+<div class="row">
+<!-- work image 4 -->
+<div class="col-12 col-lg-4" id="work4">
+
+<div  id="d18">
+<div id="slideup4"><span style="font-size: 18px">Animation</span><br>Fight Gif<hr width="20%" ></div>
+</div></div>
+
+<!-- work image 5 -->
+<div class="col-12 col-lg-4" id="work5">
+
+<div  id="d19">
+<div id="slideup5"><span style="font-size: 18px">SOCIAL FUN</span><br>Funny Gif<hr width="20%" ></div>
+</div></div>
+
+<!-- work image 6 -->
+<div class="col-12 col-lg-4" id="work6">
+
+<div  id="d20">
+<div id="slideup6"><span style="font-size: 18px">SPORTS</span><br>Basketball Gif<hr width="20%" ></div>
+</div></div>
+</div>
+
+
+
+<!--jumping button-->
+
+<div class="form-row text-center row">
+		<div class="col-12">
+			<button class="btn wow bounceIn" data-wow-duration="1000ms" data-wow-delay="200ms" id="but2">Submit</button>
+		</div>
+</div>
+
+
+</div>
+
+
+
+<!-- Our Services -->
+
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-12" id="d22">
+
+<span  style="font-size:14px; font-weight:normal; color:#767676;line-height: 60px;">OUR SERVICES</span><br>
+
+Discover services we'r provided
+
+
+</div></div>
+
+<!-- services written 1 -->
+
+<div class="row">
+
+<div class="col-lg-4 col-12 wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms" id="d23">
+
+		<div id="icon1">
+
+
+	
+
+			</div>	
+ <span style="font-size: 20px;color: #262626;font-weight: bold;line-height: 80px;">GIFFYS World</span><br>
+Get ready to fill the world around you with GIFs & stickers in glorious AR powered 3D! GIPHY World is an augmented reality app that lets you communicate in AR. 
+	
+	
+</div>	
+
+<div class="col-lg-4 col-12 wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms" id="d24">
+		
+		<div id="icon2">
+			</div>
+	
+	<span style="font-size: 20px;color: #262626;font-weight: bold;line-height: 80px;">GIFFYS Cam</span><br>
+		Record your life as a series of GIFs made with GIPHY CAM. Feeling creative? Add some filters or special FX! Then share the best moments of your day via text or social media. 
+			
+			
+</div>
+
+<div class="col-lg-4 col-12 wow fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms" id="d25">
+		
+		<div id="icon3">
+
+			
+			</div>
+	
+	<span style="font-size: 20px;color: #262626;font-weight: bold;line-height: 80px;">GIFFYS Capture</span><br>
+		GIPHY CAPTURE is the best way to create GIFs on your Mac. Simple, powerful, free, and easy enough for pretty much everyone and even a few small mammals. 
+			
+			
+</div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+<footer class="mainfooter" role="contentinfo">
+		<div class="footer-middle">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-3 col-sm-6">
+			  <!--Column1-->
+			  <div class="footer-pad">
+				<h4>Guidelines</h4>
+				<ul class="list-unstyled">
+				  <li><a href="#"></a></li>
+				  <li><a href="#">Payment Center</a></li>
+				  <li><a href="#">Contact Directory</a></li>
+				  <li><a href="#">Forms</a></li>
+				  <li><a href="#">News and Updates</a></li>
+				  <li><a href="#">FAQs</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			  <!--Column1-->
+			  <div class="footer-pad">
+				<h4>Policy</h4>
+				<ul class="list-unstyled">
+				  <li><a href="#">Website Tutorial</a></li>
+				  <li><a href="#">Accessibility</a></li>
+				  <li><a href="#">Disclaimer</a></li>
+				  <li><a href="#">Privacy Policy</a></li>
+				  <li><a href="#">FAQs</a></li>
+				  <li><a href="#">Webmaster</a></li>
+				</ul>
+			  </div>
+			</div>
+			<div class="col-md-3 col-sm-6">
+			  <!--Column1-->
+			  <div class="footer-pad">
+				<h4>Brands & Artist</h4>
+				<ul class="list-unstyled">
+				  <li><a href="#">Giphy copyright</a></li>
+				  <li><a href="#">API</a></li>
+				  <li><a href="#">Graphql</a></li>
+				  <li><a href="#">Developer board</a></li>
+				  <li><a href="#">Documentation </a></li>
+				  <li>
+					<a href="#"></a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			  <div class="col-md-3">
+				  <h4>Follow Us</h4>
+				  <ul class="social-network social-circle">
+				   <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+				   <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				  </ul><br>
+				  <img src="images/googleplay.png" width="200px" height="80px" ><br>
+				  <img src="images/appstore.png" width="175px" height="60px" style="margin-left: 12px">				
+			  </div>
+		  </div>
+		  <div class="row">
+			  <div class="col-md-12 copy">
+				  <p class="text-center">&copy; Copyright 2019 - Sanket Sonawane.  All rights reserved.</p>
+			  </div>
+		  </div>
+	  
+	  
+		</div>
+		</div>
+	  </footer>
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div  class="row-md-12" style="position: relative;float: left;  width: 100%;background-color:#677c8b; ">
+
+<div class="col-md-3" id="foot1" style="background-color:#677c8b;">
+	<ul id="ful1">
+<a href="#" style="text-decoration: none;"><li id="fleft1"> FAQ</li></a>
+<a href="#" style="text-decoration: none;"><li id="fleft1"> Investor Relations</li></a>	
+ <a href="#" style="text-decoration: none;"><li id="fleft1"> Privacy</li></a>
+ <a href="#" style="text-decoration: none;"><li id="fleft1"> Services</li></a>
+	</ul>	
+</div>
+
+
+
+<div class="col-md-3" id="foot2">
+	<ul id="ful2">
+<a href="#" style="text-decoration: none;"><li id="fleft2"> Help Centre</li></a>
+<a href="#" style="text-decoration: none;"><li id="fleft2" style="text-decoration: none;"> Jobs</li></a>	
+ <a href="#" style="text-decoration: none;"><li id="fleft2"> Cookie Preferences</li></a>
+ <a href="#" style="text-decoration: none;"><li id="fleft2"> Legal Notices</li></a>
+	</ul>	
+</div>
+
+
+
+<div class="col-md-3" id="foot3">
+	<ul id="ful3">
+<a href="#" style="text-decoration: none;"><li id="fleft3" style="text-decoration: none;"> Account</li></a>
+<a href="#" style="text-decoration: none;"><li id="fleft3"> Terms of Use</li></a>	
+ <a href="#" style="text-decoration: none;"><li id="fleft3"> Contact Us</li></a>
+
+	</ul>	
+</div>
+
+
+
+<div  class="col-md-3" id="foot4">
+	<div id="medialeft">
+	<a href="#" style="text-decoration: none;"><img src="images/fa.png" 
+	id="facebook"></a>
+
+<a href="#" style="text-decoration: none;"><img src="images/ins.png"  
+	id="insta"></a>
+
+<a href="#" style="text-decoration: none;"><img src="images/lin.png" 
+    id="in"></a>
+
+<a href="#" style="text-decoration: none;"><img src="images/gi.png" 
+	id="github"></a>
+
+<a href="#" style="text-decoration: none;"><img src="images/tw.png" 
+	id="twit"></a></div>
+
+
+</div>
+<h6 style="position: absolute; bottom: 20px;right: 100px;color: white;font-style: italic;font-size: 16px;"
+>@copyright Sanket Sonawane</h6>
+</div> -->
+
+
+
+</body>
+
+</html>
+
+
+
+

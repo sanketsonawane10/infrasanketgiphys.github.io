@@ -1,0 +1,41 @@
+/* media queries */
+
+
+/* menu bar */
+@media(max-width: 768px){
+
+
+	#parahead{
+
+		padding-left: 0px;
+	}
+
+	#d4{width: 100%}
+
+
+
+
+
+h1{
+	bottom: 100px;
+	
+}
+
+
+
+
+
+#d7{
+	
+	width: 100%;
+}
+
+#slide1{
+	margin-left:0px;
+}
+
+
+
+}
+
+
